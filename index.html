@@ -1,13 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--- font awesome and google fonts added from the Training material as copy paste-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Raleway%7CRighteous" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Document</title>
 </head>
+
 <body>
-    <header> word puzzle Game</header>
+
+    <header>
+        <h2>word puzzle Game <i class='fas fa-gamepad' style='font-size:24px;color:rgb(78, 65, 65)'></i></h2>
+
+    </header>
     <main>
         <div>
             <div>
@@ -17,16 +27,17 @@
                 <p></p>
                 <p></p>
             </div>
-            <form action="">
-                <input type="text">
-                    <div>
-                        <button></button>
-                        <button></button>
-                    </div>
-            
+            <form class="word-area">
+                <input type="text" spellcheck="false" placeholder="Enter the valid word">
+                <div class="btns">
+                    <button type="button" class="refresh"> Reset the game</button>
+                    <button type="submit" class="Check"> Check the Word</button>
+                </div>
+
             </form>
         </div>
     </main>
     <script src="assets/js/script.js"></script>
 </body>
+
 </html>

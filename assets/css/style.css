@@ -12,5 +12,28 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: #535353;
+    background: #e6dede;
 }
+header{
+    text-align: center;
+    padding: 14px 0;
+    border-bottom: 1px solid #282525;
+    padding-right: 1%;
+}
+main{
+    border-radius: 6px;
+    background: #fafafa;
+    width: 450px;
+    height: auto;
+    box-shadow: 0 10px rgba(0, 0, 0, 0.06);
+    margin: 25px 35px;
+    padding: 0 19px;
+}
+.wordgame-container{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* i {
+padding: 1%;
+} */

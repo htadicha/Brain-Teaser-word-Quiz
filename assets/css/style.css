@@ -12,7 +12,7 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: #e6dede;
+    background: #d7d3d3;
 }
 header{
     text-align: center;
@@ -36,13 +36,22 @@ main{
 
 .word{
     user-select: none;
-    font-size: 33px;
+    font-size: 30px;
     font-weight: 450;
     letter-spacing: 22px;
     word-break: break-all;
     text-transform: uppercase;
 }
-
+.details{
+    margin-bottom: 25px;
+}
+.details p {
+    font-size: 16PX;
+    margin-bottom: 10px;
+}
+.details p b {
+    font-weight: 450px;
+}
 
 @media screen and (max-width: 470px) {
     header{

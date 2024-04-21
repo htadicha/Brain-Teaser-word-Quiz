@@ -34,6 +34,30 @@ main{
     margin-bottom: 30px;
 }
 
+.word{
+    user-select: none;
+    font-size: 33px;
+    font-weight: 450;
+    letter-spacing: 22px;
+    word-break: break-all;
+    text-transform: uppercase;
+}
+
+
+@media screen and (max-width: 470px) {
+    header{
+        padding: 12px 20px;
+    }
+    .word {
+        font-size: 30px;
+        letter-spacing: 20px;
+      }
+    main{
+        margin: 20px 0 30px;
+    }
+    
+}
+
 /* i {
 padding: 1%;
 } */

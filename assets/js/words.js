@@ -1,36 +1,26 @@
+// more placeholder word added to the doc
 let words = [
     {
         word: "algorithm",
         hint: "Step-by-step procedure for calculations"
     },
     {
-        word: "artificial intelligence",
-        hint: "Simulation of human intelligence in machines"
+        word: "Genome",
+        hint: "Complete set of genes or genetic material present in a cell or organism"
     },
     {
-        word: "data science",
-        hint: "Study of data analysis and interpretation"
+        word: "Geomorphology",
+        hint: "Study of the origin and evolution of topographic and bathymetric features"
     },
     {
-        word: "machine learning",
-        hint: "Subset of AI that enables machines to learn from data"
+        word: "Ecosystem",
+        hint: "Community of living organisms interacting with each other and their environment"
     },
     {
-        word: "neural network",
-        hint: "Set of algorithms modeled after human brain"
+        word: "Cyclone",
+        hint: "Large-scale atmospheric circulation characterized by inward spiraling winds"
     },
-    {
-        word: "quantum computing",
-        hint: "Utilizes principles of quantum mechanics for computation"
-    },
-    {
-        word: "robotics",
-        hint: "Design, construction, operation of robots"
-    },
-    {
-        word: "genetic engineering",
-        hint: "Manipulation of an organism's genetic material"
-    },
+
     {
         word: "nanotechnology",
         hint: "Manipulation of matter on an atomic, molecular, and supramolecular scale"
@@ -44,19 +34,32 @@ let words = [
         hint: "Protection of computer systems from theft or damage"
     },
     {
-        word: "big data",
-        hint: "Large volume of data, analyzed for insights and patterns"
-    },
-    {
-        word: "internet of things",
-        hint: "Network of interconnected devices"
-    },
-    {
         word: "augmented reality",
         hint: "Overlaying digital information onto the real world"
     },
     {
         word: "virtual reality",
         hint: "Immersive experience in a computer-generated environment"
+    },
+
+    {
+        word: "Geothermal",
+        hint: "Relating to the heat of the Earth's interior"
+    },
+    {
+        word: "Exoplanet",
+        hint: "Planet outside of our solar system"
+    },
+    {
+        word: "Amphibian",
+        hint: "Cold-blooded vertebrate that spends part of its life in water and part on land"
+    },
+    {
+        word: "Fahrenheit",
+        hint: "Temperature scale used in the United States"
+    },
+    {
+        word: "Equator",
+        hint: "Imaginary line dividing the Earth into northern and southern hemispheres"
     }
 ];

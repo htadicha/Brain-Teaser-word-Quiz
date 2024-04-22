@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", function() {
     let wordText = document.getElementsByClassName("word")[0],
         // Credit: query selector and getElementBy.. taken from Stackoverflow and treehouse sites
         // https://teamtreehouse.com/community/getelementsbyclassname-versus-queryselector
+        //  query selector later replaced with getElement from the modules as it is more understandable
         hintText = document.getElementsByClassName("helper")[0].getElementsByTagName("span")[0],
         timeText = document.getElementsByClassName("seconds")[0].getElementsByTagName("b")[0],
         inputField = document.getElementsByTagName("input")[0],
@@ -14,9 +15,9 @@ document.addEventListener("DOMContentLoaded", function() {
     let initTimer = maxTime => {
         clearInterval(timer);
         timer = setInterval(() => {
-            if (maxTimeaxTime > 0) {
+            if (maxTime > 0) {
                 maxTime--;
-                timeText.innerText = MaxTime;
+                timeText.innerText = maxTime;
             } else {
                 clearInterval(timer);
                 alert(`Time off! ${correctWord.toUppercase()} was the correct word`);

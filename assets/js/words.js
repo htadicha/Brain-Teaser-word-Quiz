@@ -20,11 +20,6 @@ let words = [
         word: "Cyclone",
         hint: "Large-scale atmospheric circulation characterized by inward spiraling winds"
     },
-
-    {
-        word: "nanotechnology",
-        hint: "Manipulation of matter on an atomic, molecular, and supramolecular scale"
-    },
     {
         word: "biotechnology",
         hint: "Utilization of biological processes, organisms, or systems for technological development"
@@ -33,15 +28,6 @@ let words = [
         word: "cybersecurity",
         hint: "Protection of computer systems from theft or damage"
     },
-    {
-        word: "augmented reality",
-        hint: "Overlaying digital information onto the real world"
-    },
-    {
-        word: "virtual reality",
-        hint: "Immersive experience in a computer-generated environment"
-    },
-
     {
         word: "Geothermal",
         hint: "Relating to the heat of the Earth's interior"

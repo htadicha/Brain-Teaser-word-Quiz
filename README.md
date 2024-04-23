@@ -21,7 +21,10 @@ The following elements are considered when building the gamne:
 
 ## Features
  ### Game Title
+ 
+ ![alt text](assets/gallery/gametitle.png)
  ### Game Area
+ ![alt text](assets/gallery/game_area.png)
  ### Refresh button 
  ### Word submission section
  ## Testing

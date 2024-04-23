@@ -52,7 +52,25 @@ The game refresh and submit buttons are vital as they enable players to control 
 4. __Iphone 15 pro and pro max:__ No issues with appearance, responsiveness, or functionality.
 ### The Lighthouse Test
 ## Technologies used
+- HTML
+- CSS
+- Javascript
 ## Framework used
+- Git
+- Vscode
+- Font Awsome
+- Flaticon
+- Youtube
+- Am I Responsive
+- Google
+- ChatGPT- for randomw word generation
+
 ## Unfixed bugs
+Contrast error found and wasn't fixed bacause it wasn't a major issues that affects the functionality of the site.
 ## Deployment
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+1. In the GitHub repository, navigate to the Settings tab
+2. From the source section drop-down menu, select the Master Branch
+3. Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. The live link can be found [here](https://htadicha.github.io/Brain-Teaser-word-Quiz/)
+
 ## Acknowledgements

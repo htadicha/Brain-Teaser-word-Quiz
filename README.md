@@ -28,7 +28,8 @@ The game title is crucial as it serves as the first point of contact for players
  ![alt text](assets/gallery/gametitle.png)
  ### Game Area
 
-The game area is essential as it provides the interactive space where players engage with the game mechanics, facilitating immersion and gameplay interaction. Through the refresh button and the check your answer button, a user will be able to interact with the game.
+The game area is essential as it provides the interactive space where players engage with the game mechanics, facilitating immersion and gameplay interaction. Through the refresh button and the check your answer button, a user will be able to interact with the game. A timer section to provide some level excitment and pressure for fun.
+
  ![alt text](assets/gallery/game_area.png)
  ### Refresh  and Check answer button 
 
@@ -92,12 +93,12 @@ No media taken from external sources.
 - css elements taken from previous class exercises and 
 - Some of the css and HTML elements are taken from ChatGPT and google
 - part of css elements are taken from the w3 sites.
-- some part of the JS code taken from [Treehouse.come](https://teamtreehouse.com/community/how-do-i-set-up-setinterval-clearinterval-settimeout-and-cleartimeout-properly-alsodo-i-need-to-use-all-4)
+- some part of the JS code taken from [Treehouse.com](https://teamtreehouse.com/community/how-do-i-set-up-setinterval-clearinterval-settimeout-and-cleartimeout-properly-alsodo-i-need-to-use-all-4)
 - Event listener taken from the training and [mdn-webdocs](https://developer.mozilla.org/en-US/docs/Web/Events)
 - Inspiration taken from Codin Nepal [videos](https://www.youtube.com/channel/UCk7xIEmd3MeyhIu2StLX5yA) 
-- Free codeacademy training provided an immense help.
+- Free codeacademy Javascript training provided was of great importance help.
 - some JS taken from this [github](https://github.com/Code-Institute-Solutions/love-maths-2.0-sourcecode/blob/master/03-displaying-the-question-and-answer/01-displaying-the-addition-question/assets/js/script.js
-) and edited 
+) and [the geeksforgeeks website](https://www.geeksforgeeks.org/word-guessing-game-using-html-css-and-javascript/) and edited.
 - All other credits provided in the code and projects.
 ## Acknowledgements.
 I would like to thank:

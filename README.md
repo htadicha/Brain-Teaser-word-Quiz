@@ -28,7 +28,6 @@ The game title is crucial as it serves as the first point of contact for players
  ### Game Area
 
 The game area is essential as it provides the interactive space where players engage with the game mechanics, facilitating immersion and gameplay interaction. Through the refresh button and the check your answer button, a user will be able to interact with the game.
-
  ![alt text](assets/gallery/game_area.png)
  ### Refresh  and Check answer button 
 

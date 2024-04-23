@@ -21,12 +21,20 @@ The following elements are considered when building the gamne:
 
 ## Features
  ### Game Title
- 
+
+The game title is crucial as it serves as the first point of contact for players, conveying the essence and attracting attention, setting expectations for the gameplay experience.
+
  ![alt text](assets/gallery/gametitle.png)
  ### Game Area
+
+The game area is essential as it provides the interactive space where players engage with the game mechanics, facilitating immersion and gameplay interaction. Through the refresh button and the check your answer button, a user will be able to interact with the game.
+
  ![alt text](assets/gallery/game_area.png)
- ### Refresh button 
- ### Word submission section
+ ### Refresh  and Check answer button 
+
+The game refresh and submit buttons are vital as they enable players to control the flow of gameplay, allowing for the submission of answers and refreshing the game grid for continuous engagement and progress. The refresh button will bring another random word if the user is not familier with the current word.
+
+ ![alt text](assets/gallery/rest_check_button.png)
  ## Testing
  ### Validator testing
  ### Manual testiing

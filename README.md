@@ -1,5 +1,6 @@
 # Word Puzzle Game
 Word Puzzle Game is a simple and fun word game created using HTML, CSS, and JavaScript. Players are presented with a grid of letters, and their task is to find as many words as they can by connecting adjacent letters. The words are randomly selected with interactive interface for refreshing game incase you don't know the word, timer section to add some challange and excitement to the game, a section for giving you a hint and definition of word. It is responsive and playable on desktop, laptop and all other snmaller devices.
+
 ![alt text](assets/gallery/amI_responsive.png)
 
 ## UX/UI

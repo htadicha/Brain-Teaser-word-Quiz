@@ -36,6 +36,16 @@ The game refresh and submit buttons are vital as they enable players to control 
  ![alt text](assets/gallery/rest_check_button.png)
  ## Testing
  ### Validator testing
+ - HTML
+   - No error were returned when passing through the official [W3C HTML validator](https://validator.w3.org/nu/#textarea) when direct text is used.
+- CSS
+  - No erros were returned when passing through the official [W3C CSS Validator (Jigsaw)](https://jigsaw.w3.org/css-validator/validator) by using direct text.
+- avascript
+     - No error found when passing the JS code through the
+     [JSHint JavaScript Validator](https://jshint.com/)
+
+ 
+
  ### Manual testiing
 
  #### Browser Compatibility
@@ -92,5 +102,5 @@ No media taken from external sources.
 I would like to thank:
 
 My mentor Can Sücüllü for his feedback, advice and guidance in the previous work which served to be of continuos importance;
-Code Institute Slack Community for providing help through Leanrjs channels, small talk and peer reviews of others projects served to be of great importance in this project, in particular:
+Code Institute Slack Community for providing help through Learnjs channels, small talk and peer reviews of others projects served to be of great importance in this project, in particular:
 All the CodeInstitute instructors for their comprehensive training and for the tailored made material that enhanced my understanding of the module.

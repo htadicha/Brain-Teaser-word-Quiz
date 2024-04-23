@@ -73,4 +73,21 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 2. From the source section drop-down menu, select the Master Branch
 3. Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. The live link can be found [here](https://htadicha.github.io/Brain-Teaser-word-Quiz/)
 
-## Acknowledgements
+## Credits
+### Media
+No media taken from external sources.
+### Codes
+- css elements taken from previous class exercises and 
+- Some of the css and HTML elements are taken from ChatGPT and google
+- part of css elements are taken from the w3 sites.
+- some part of the JS code taken from [Treehouse.come](https://teamtreehouse.com/community/how-do-i-set-up-setinterval-clearinterval-settimeout-and-cleartimeout-properly-alsodo-i-need-to-use-all-4)
+- Event listern taken from the training
+- Inspiration taken from Codin Nepal [video](https://www.youtube.com/shorts/PG-F6qwptoM) 
+- Free codeacademy training provided an immense help.
+- all other credits provided in the code and projects.
+## Acknowledgements.
+I would like to thank:
+
+My mentor Can Sücüllü for his feedback, advice and guidance in the previous work which served to be of continuos importance;
+Code Institute Slack Community for providing help through Leanrjs channels, small talk and peer reviews of others projects served to be of great importance in this project, in particular:
+All the CodeInstitute instructors for their comprehensive training and for the tailored made material that enhanced my understanding of the module.

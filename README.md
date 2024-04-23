@@ -1,6 +1,6 @@
 # Word Puzzle Game
 Word Puzzle Game is a simple and fun word game created using HTML, CSS, and JavaScript. Players are presented with a grid of letters, and their task is to find as many words as they can by connecting adjacent letters. The words are randomly selected with interactive interface for refreshing game incase you don't know the word, timer section to add some challange and excitement to the game, a section for giving you a hint and definition of word. It is responsive and playable on desktop, laptop and all other snmaller devices.
-### AM Responsive
+![alt text](assets/gallery/amI_responsive.png)
 
 ## UX/UI
 The projects was created with mobile first design, during the planning the main focus was to optimise it for smaller screen and before adopting it for larger devices. The components of the game website is visible and tidy with a well maintained semantic struicture  and or textual elements.
@@ -51,6 +51,7 @@ The game refresh and submit buttons are vital as they enable players to control 
 4. __Iphone 14:__ No issues with appearance, responsiveness, or functionality.
 4. __Iphone 15 pro and pro max:__ No issues with appearance, responsiveness, or functionality.
 ### The Lighthouse Test
+![alt text](assets/gallery/lighthousetest.png)
 ## Technologies used
 - HTML
 - CSS
@@ -81,10 +82,12 @@ No media taken from external sources.
 - Some of the css and HTML elements are taken from ChatGPT and google
 - part of css elements are taken from the w3 sites.
 - some part of the JS code taken from [Treehouse.come](https://teamtreehouse.com/community/how-do-i-set-up-setinterval-clearinterval-settimeout-and-cleartimeout-properly-alsodo-i-need-to-use-all-4)
-- Event listern taken from the training
-- Inspiration taken from Codin Nepal [video](https://www.youtube.com/shorts/PG-F6qwptoM) 
+- Event listener taken from the training and [mdn-webdocs](https://developer.mozilla.org/en-US/docs/Web/Events)
+- Inspiration taken from Codin Nepal [videos](https://www.youtube.com/channel/UCk7xIEmd3MeyhIu2StLX5yA) 
 - Free codeacademy training provided an immense help.
-- all other credits provided in the code and projects.
+- some JS taken from this [github](https://github.com/Code-Institute-Solutions/love-maths-2.0-sourcecode/blob/master/03-displaying-the-question-and-answer/01-displaying-the-addition-question/assets/js/script.js
+) and edited 
+- All other credits provided in the code and projects.
 ## Acknowledgements.
 I would like to thank:
 

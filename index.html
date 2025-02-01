@@ -4,22 +4,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--- font awesome and google fonts added from the Training material as copy paste-->
+    <title>Word Puzzle Game</title>
+    
+    <!-- Font Awesome & Google Fonts -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Raleway%7CRighteous" rel="stylesheet">
+    
+    <!-- CSS File -->
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Document</title>
-    <script defer src="assets/js/script.js"></script>
+
+    <!-- JavaScript Files -->
     <script defer src="assets/js/words.js"></script>
+    <script defer src="assets/js/script.js"></script>
 </head>
 
 <body>
-
     <header>
-        <h2>word puzzle Game <i class='fas fa-gamepad' style='font-size:24px;color:rgb(78, 65, 65)'></i></h2>
-
+        <h1>Word Puzzle Game <i class='fas fa-gamepad' style='font-size:24px;color:rgb(78, 65, 65)'></i></h1>
     </header>
+
     <main>
         <div class="content">
             <div class="wordgame-container">
@@ -27,19 +31,20 @@
             </div>
             <div class="details">
                 <p class="helper">Hint: <span></span></p>
-                <p class="seconds"> seconds: <span><b>30</b>s</span></p>
+                <p class="seconds">Time Left: <span><b>30</b>s</span></p>
+                <p class="counter">Correct Answers: <span>0</span> / <span class="total-words"></span></p>
             </div>
+
+            <p class="feedback"></p> <!-- Feedback message area -->
+
             <form class="wordgame-area">
                 <input type="text" spellcheck="false" placeholder="Enter the correct word">
                 <div class="btns">
-                    <button type="button" class="refresh"> Reset the game</button>
-                    <button type="submit" class="check"> Check your answer </button>
-                </div>
-
+    <button type="button" class="refresh">Reset Game</button>
+    <button type="submit" class="check">Check Answer</button>
+</div>
             </form>
         </div>
     </main>
-    
 </body>
-
 </html>

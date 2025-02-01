@@ -1,5 +1,5 @@
 # Word Puzzle Game
-Word Puzzle Game is a simple and fun word game created using HTML, CSS, and JavaScript. Players are presented with a grid of letters, and their task is to find as many words as they can by connecting adjacent letters. The words are randomly selected with interactive interface for refreshing game incase you don't know the word, timer section to add some challange and excitement to the game, a section for giving you a hint and definition of word. It is responsive and playable on desktop, laptop and all other snmaller devices.
+Word Puzzle Game is a simple and fun word game created using HTML, CSS, and JavaScript. Players are presented with a grid of letters, and their task is to find as many words as they can by connecting adjacent letters. The words are randomly selected with interactive interface for refreshing game incase you don't know the word, timer section to add some challange and excitement to the game, a section for giving you a hint and definition of word. It is responsive and playable on desktop, laptop and all other snmaller devices.The Word Puzzle Game is a single-player game where the player is presented with a scrambled word and a hint. The player must unscramble the word within a time limit. The game consists of multiple rounds, and the player's score is based on the number of correct answers.
 
 ![alt text](assets/gallery/amI_responsive.png)
 
@@ -31,11 +31,54 @@ The game title is crucial as it serves as the first point of contact for players
 The game area is essential as it provides the interactive space where players engage with the game mechanics, facilitating immersion and gameplay interaction. Through the refresh button and the check your answer button, a user will be able to interact with the game. A timer section to provide some level excitment and pressure for fun.
 
  ![alt text](assets/gallery/game_area.png)
- ### Refresh  and Check answer button 
+ ### Reset  and Check answer button 
 
 The game refresh and submit buttons are vital as they enable players to control the flow of gameplay, allowing for the submission of answers and refreshing the game grid for continuous engagement and progress. The refresh button will bring another random word if the user is not familier with the current word.
 
  ![alt text](assets/gallery/rest_check_button.png)
+
+ ## Scrambled Words:
+ Each word is scrambled, and the player must unscramble it to form the correct word.
+ ![alt text](assets/gallery/scrambledwords.png)
+ ## Hints:
+A hint is provided for each word to help the player guess the correct answer.
+![alt text](assets/gallery/scrambledwords.png)
+## Timer:
+A 30-second timer is displayed for each word. The player must answer before the timer runs out.
+![alt text](assets/gallery/scrambledwords.png)
+## Score Tracking:
+The game tracks the number of correct answers and displays the score at the end of the game.
+![alt text](assets/gallery/scrambledwords.png)
+## Feedback:
+Instant feedback is provided after each answer (correct, wrong, or time's up).
+   #### correct Feedback
+   ![alt text](assets/gallery/game_area.png)
+   #### Wrong Feedback
+   ![alt text](assets/gallery/game_area.png)
+   ### time's up Feedback
+   ![alt text](assets/gallery/game_area.png)
+
+   # Game Flow
+### Initialization:
+The game initializes with a scrambled word, a hint, and a timer.
+### Player Input:
+The player types their answer in the input field and clicks the "Check Answer" button.
+### Validation:
+The game checks if the player's answer matches the correct word.
+- If correct, the score is incremented, and the game moves to the next word.
+- If incorrect, the game displays an error message and allows the player to try again.
+
+### Timer:
+If the timer runs out without user trying to type any word, the game asks the player if they want to continue.
+    - If the player chooses to continue, the current word is marked as incorrect, and the game moves to the next word.
+    - If the player chooses not to continue, the game ends, and the final score is displayed.
+
+### Game Over:
+The game displays the final score and asks the player if they want to play again.
+
+![alt text](assets/gallery/gameover.png)
+
+
  ## Testing
  ### Validator testing
  - HTML

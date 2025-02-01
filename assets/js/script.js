@@ -89,10 +89,10 @@ document.addEventListener("DOMContentLoaded", function () {
                 clearInterval(timer);
 
                 // Ask the user if they want to continue
-                let userChoice = confirm("Time's up! Do you want to continue to the next word?");
+                let userChoice = confirm(" ⌛ Time's up while idle! Do you want to continue playing");
                 if (userChoice) {
                     // Record it as a wrong answer and move to the next word
-                    showFeedback("⌛ Time's up! Moving to the next word.", false);
+                    showFeedback("⌛ No trial miss! Moving to the next word.", false);
                     trialCount++; // Increment trial count
                     setTimeout(() => {
                         feedbackText.style.display = "none"; // Hide feedback

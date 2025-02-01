@@ -9,28 +9,32 @@
 
 body {
     display: flex;
-    padding: 0 10px;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start; /* Align content to the top */
     min-height: 100vh;
     background: #d7d3d3;
+    padding: 20px;
 }
 
 header {
+    width: 100%;
     text-align: center;
-    padding: 14px 0;
-    border-bottom: 1px solid #282525;
-    padding-right: 1%;
+    margin-bottom: 20px; /* Space below the header */
+}
+
+header h1 {
+    font-size: 28px;
+    color: #282525;
+    margin: 0; /* Remove default margin */
 }
 
 main {
-    border-radius: 6px;
+    border-radius: 10px;
     background: #fafafa;
-    width: 450px;
-    height: auto;
+    width: 500px; /* Increased width */
     box-shadow: 0 10px 20px rgba(30, 30, 30, 0.06);
-    margin: 25px 35px;
-    padding: 0 19px;
+    padding: 25px;
 }
 
 .wordgame-container {
@@ -39,25 +43,45 @@ main {
 }
 
 .word {
-    user-select: none;
-    font-size: 30px;
-    font-weight: 450;
-    letter-spacing: 22px;
+   -webkit-user-select: none;
+   user-select: none;
+    font-size: 36px; /* Larger font size */
+    font-weight: 500;
+    letter-spacing: 18px; /* Increased letter spacing */
     word-break: break-all;
     text-transform: uppercase;
+    margin: 20px 0;
 }
 
 .details {
     margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px; /* Consistent spacing between paragraphs */
 }
 
 .details p {
-    font-size: 16PX;
-    margin-bottom: 10px;
+    font-size: 18px; /* Slightly larger font size */
+    margin: 0; /* Remove default margin */
+    display: flex;
+    align-items: center; /* Align text vertically */
 }
 
 .details p b {
-    font-weight: 450;
+    font-weight: 500;
+    margin-right: 4px; /* Add space after bold text */
+}
+
+.details p.seconds {
+    display: flex;
+    align-items: center; /* Align text vertically */
+    gap: 4px; /* Add space between elements */
+}
+
+/* Hide Hint and Time Left in Game Over section */
+.details.game-over .helper,
+.details.game-over .seconds {
+    display: none;
 }
 
 .wordgame-area {
@@ -68,15 +92,15 @@ main {
     width: 100%;
     height: 60px;
     outline: none;
-    padding: 0 15px;
-    font-size: 16px;
-    border-radius: 5px;
+    padding: 0 20px; /* Increased padding */
+    font-size: 18px; /* Larger font size */
+    border-radius: 8px; /* Rounded corners */
     border: 1px solid #bfbfbf;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
 }
 
 .wordgame-area input:focus {
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.06);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .wordgame-area input::placeholder {
@@ -87,74 +111,81 @@ main {
     color: #3b3a3a;
 }
 
-/* buttons class, spacing the two buttons from each other for better semantic and user experience */
+/* Buttons */
 .btns {
     display: flex;
     justify-content: space-between;
+    gap: 10px; /* Space between buttons */
 }
 
 .btns button {
     border: none;
-    outline: auto;
-    color: #f4f0f0;
+    outline: none;
+    color: #fff;
     cursor: pointer;
-    padding: 13px 0;
-    font-size: 16px;
-    border-radius: 3px;
-    width: calc(50% - 4px);
+    padding: 15px 0;
+    font-size: 16px; /* Consistent font size */
+    border-radius: 8px; /* Rounded corners */
+    width: calc(50% - 5px);
     transition: all 0.3s ease;
 }
 
-.btns button {
-    transition: transform 0.2s ease;
-}
-
-.btns button:active {
-    transform: scale(0.97);
-}
-
 .refresh {
-    background: #6C757D;
-}
-
-.refresh:hover {
-    background: #5f666d;
+    background: #6C757D; /* Gray color for the refresh button */
 }
 
 .check {
-    background: #6C757D;
+    background: #28a745; /* Green color for the check button */
 }
 
+.refresh:hover,
 .check:hover {
-    background: #6C757D;
+    opacity: 0.9;
 }
 
-@media screen and (max-width: 470px) {
-    header {
-        padding: 12px 20px;
+.feedback {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 15px;
+    display: none;
+}
+
+.feedback.correct {
+    color: #28a745;
+}
+
+.feedback.wrong {
+    color: #dc3545;
+}
+
+.feedback.neutral {
+    color: #6C757D;
+}
+
+@media screen and (max-width: 520px) {
+    main {
+        width: 100%;
+        padding: 15px;
     }
 
     .word {
-        font-size: 30px;
-        letter-spacing: 20px;
+        font-size: 28px; /* Adjust font size for smaller screens */
+        letter-spacing: 14px; /* Reduce letter spacing for smaller screens */
     }
 
-    main {
-        margin: 20px 0 30px;
-    }
     .details p {
-        font-size: 16px;
-        margin-bottom: 8px;
-      }
-    
-      .wordgame-area input {
-        height: 55px;
-        font-size: 17px;
-      }
-    
-      .btns button {
-        padding: 14px 0;
-        font-size: 16px;
-      }
-}
+        font-size: 16px; /* Adjust font size for smaller screens */
+    }
 
+    .wordgame-area input {
+        font-size: 16px; /* Adjust font size for smaller screens */
+    }
+
+    .btns button {
+        font-size: 14px; /* Adjust font size for smaller screens */
+    }
+
+    .word.game-over {
+        letter-spacing: normal; /* Reset letter spacing for "Game Over!" on smaller screens */
+    }
+}

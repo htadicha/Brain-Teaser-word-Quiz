@@ -1,51 +1,51 @@
 // more placeholder word added to the doc
 let words = [
     {
-        word: "algorithm",
-        hint: "Step-by-step procedure for calculations"
+        word: "Steps",
+        hint: "Way to solve a problem"
     },
     {
-        word: "Genome",
-        hint: "Complete set of genes or genetic material present in a cell or organism"
+        word: "DNA",
+        hint: "All genes in a living thing"
     },
     {
-        word: "Geomorphology",
-        hint: "Study of the origin and evolution of topographic and bathymetric features"
+        word: "Land",
+        hint: "Study of Earth's surface"
     },
     {
-        word: "Ecosystem",
-        hint: "Community of living organisms interacting with each other and their environment"
+        word: "Life",
+        hint: "Living things and their environment"
     },
     {
-        word: "Cyclone",
-        hint: "Large-scale atmospheric circulation characterized by inward spiraling winds"
+        word: "Wind",
+        hint: "Spinning storm with strong winds"
     },
     {
-        word: "biotechnology",
-        hint: "Utilization of biological processes, organisms, or systems for technological development"
+        word: "Tools",
+        hint: "Using biology for technology"
     },
     {
-        word: "cybersecurity",
-        hint: "Protection of computer systems from theft or damage"
+        word: "Protect",
+        hint: "Keeping computers safe"
     },
     {
-        word: "Geothermal",
-        hint: "Relating to the heat of the Earth's interior"
+        word: "Energy",
+        hint: "Heat from inside the Earth"
     },
     {
-        word: "Exoplanet",
-        hint: "Planet outside of our solar system"
+        word: "Star",
+        hint: "Planet outside our solar system"
     },
     {
-        word: "Amphibian",
-        hint: "Cold-blooded vertebrate that spends part of its life in water and part on land"
+        word: "Frog",
+        hint: "Animal living in water and land"
     },
     {
-        word: "Fahrenheit",
-        hint: "Temperature scale used in the United States"
+        word: "Measure",
+        hint: "Way to check temperature"
     },
     {
-        word: "Equator",
-        hint: "Imaginary line dividing the Earth into northern and southern hemispheres"
+        word: "Center",
+        hint: "Middle line of the Earth"
     }
 ];

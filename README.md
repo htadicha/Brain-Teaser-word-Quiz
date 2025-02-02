@@ -51,10 +51,10 @@ The game tracks the number of correct answers and displays the score at the end 
 ![alt text](assets/gallery/scrambledwords.png)
 ## Feedback:
 Instant feedback is provided after each answer (correct, wrong, or time's up).
-   #### correct Feedback
+   #### correct answer Feedback
    ![alt text](assets/gallery/game_area.png)
-   #### Wrong Feedback
-   ![alt text](assets/gallery/game_area.png)
+   #### Wrong answer Feedback
+   ![alt text](assets/gallery/wronganswer.png)
    ### time's up Feedback
    ![alt text](assets/gallery/game_area.png)
 

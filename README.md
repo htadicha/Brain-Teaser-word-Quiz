@@ -41,7 +41,7 @@ The game refresh and submit buttons are vital as they enable players to control 
  Each word is scrambled, and the player must unscramble it to form the correct word.
  ![alt text](assets/gallery/scrambledwords.png)
  ## Hints:
-A hint is provided for each word to help the player guess the correct answer.
+A hint is provided for each word to help the player guess the correct answer. Hint is not definition of the word but a similar or somewhat direction to unscramle the word.
 ![alt text](assets/gallery/hints.png)
 ## Timer:
 A 30-second timer is displayed for each word. The player must answer before the timer runs out.

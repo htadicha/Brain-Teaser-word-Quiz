@@ -30,7 +30,7 @@ The game title is crucial as it serves as the first point of contact for players
 
 The game area is essential as it provides the interactive space where players engage with the game mechanics, facilitating immersion and gameplay interaction. Through the refresh button and the check your answer button, a user will be able to interact with the game. A timer section to provide some level excitment and pressure for fun.
 
- ![alt text](assets/gallery/game_area.png)
+ ![alt text](assets/gallery/gamearea.png)
  ### Reset  and Check answer button 
 
 The game refresh and submit buttons are vital as they enable players to control the flow of gameplay, allowing for the submission of answers and refreshing the game grid for continuous engagement and progress. The refresh button will bring another random word if the user is not familier with the current word.

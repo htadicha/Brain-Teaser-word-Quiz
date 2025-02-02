@@ -134,7 +134,7 @@ document.addEventListener("DOMContentLoaded", function () {
         clearInterval(timer);
         wordText.innerText = "Game Over!";
     
-        // Add the .game-over class to hide Hint and Time Left
+        // Added the .game-over class to hide Hint and Time Left
         document.querySelector(".details").classList.add("game-over");
     
         inputField.style.display = "none";

@@ -35,28 +35,28 @@ The game area is essential as it provides the interactive space where players en
 
 The game refresh and submit buttons are vital as they enable players to control the flow of gameplay, allowing for the submission of answers and refreshing the game grid for continuous engagement and progress. The refresh button will bring another random word if the user is not familier with the current word.
 
- ![alt text](assets/gallery/rest_check_button.png)
+ ![alt text](assets/gallery/check_reset.png)
 
  ## Scrambled Words:
  Each word is scrambled, and the player must unscramble it to form the correct word.
  ![alt text](assets/gallery/scrambledwords.png)
  ## Hints:
 A hint is provided for each word to help the player guess the correct answer.
-![alt text](assets/gallery/scrambledwords.png)
+![alt text](assets/gallery/hints.png)
 ## Timer:
 A 30-second timer is displayed for each word. The player must answer before the timer runs out.
-![alt text](assets/gallery/scrambledwords.png)
+![alt text](assets/gallery/timer.png)
 ## Score Tracking:
 The game tracks the number of correct answers and displays the score at the end of the game.
-![alt text](assets/gallery/scrambledwords.png)
+![alt text](assets/gallery/answer_tracking.png)
 ## Feedback:
 Instant feedback is provided after each answer (correct, wrong, or time's up).
    #### correct answer Feedback
-   ![alt text](assets/gallery/game_area.png)
+   ![alt text](assets/gallery/correctanswer.png)
    #### Wrong answer Feedback
    ![alt text](assets/gallery/wronganswer.png)
    ### time's up Feedback
-   ![alt text](assets/gallery/game_area.png)
+   ![alt text](assets/gallery/feedback1.png)
 
    # Game Flow
 ### Initialization:
@@ -77,6 +77,12 @@ If the timer runs out without user trying to type any word, the game asks the pl
 The game displays the final score and asks the player if they want to play again.
 
 ![alt text](assets/gallery/gameover.png)
+
+### Score:
+The game displays the final score and asks the player if they want to play again to click on reset.
+
+![alt text](assets/gallery/score.png)
+
 
 
  ## Testing
